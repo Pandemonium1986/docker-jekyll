@@ -1,9 +1,9 @@
 # Jekyll Base Image
 
-![Github workflow status](https://github.com/Pandemonium1986/docker-alpine313/workflows/docker/badge.svg)
-![](https://img.shields.io/github/release/Pandemonium1986/docker-alpine313)
-![](https://img.shields.io/github/release-date/Pandemonium1986/docker-alpine313)
-![](https://img.shields.io/github/license/Pandemonium1986/docker-alpine313)
+![Github workflow status](https://github.com/Pandemonium1986/docker-jekyll/workflows/docker/badge.svg)
+![](https://img.shields.io/github/release/Pandemonium1986/docker-jekyll)
+![](https://img.shields.io/github/release-date/Pandemonium1986/docker-jekyll)
+![](https://img.shields.io/github/license/Pandemonium1986/docker-jekyll)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 Jekyll docker image. Built to be like my vagrant box to be able to test Ansible playbooks and roles.
@@ -22,14 +22,14 @@ This image is built on GitHub each day, and any time a commit is `push` or a `re
 
 1.  [Install Docker](https://docs.docker.com/engine/installation/).
 2.  `cd` into this directory.
-3.  Run `docker build -t localhost/alpine313:test .`
+3.  Run `docker build -t localhost/jekyll:test .`
 
 ## How to Use
 
 1.  [Install Docker](https://docs.docker.com/engine/installation/).
-2.  Pull this image from GitHub Container Registry: `docker pull ghcr.io/pandemonium1986/alpine313:latest` (or use the image you built earlier, e.g. `localhost/alpine313:test`).
-3.  Run a container from the image: `docker run --rm --detach --privileged --tty --name alpine313-pdm-ghcr ghcr.io/pandemonium1986/alpine313:latest`.
-4. Exec cmd or interactive shell: `docker exec alpine313-pdm-ghcr molecule --version` or `docker exec --tty --interactive alpine313-pdm-ghcr bash`
+2.  Pull this image from GitHub Container Registry: `docker pull ghcr.io/pandemonium1986/jekyll:latest` (or use the image you built earlier, e.g. `localhost/jekyll:test`).
+3.  Run a container from the image: `docker run --rm --detach --privileged --tty --name jekyll-pdm-ghcr ghcr.io/pandemonium1986/jekyll:latest`.
+4. Exec cmd or interactive shell: `docker exec jekyll-pdm-ghcr molecule --version` or `docker exec --tty --interactive jekyll-pdm-ghcr bash`
 
 
 ## Author Information
