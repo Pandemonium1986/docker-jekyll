@@ -6,6 +6,10 @@
 ![](https://img.shields.io/github/license/Pandemonium1986/docker-jekyll)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
+## DISCLAIMER
+
+This images is no longer support. Please refer to the official [jekyll-docker](https://github.com/envygeeks/jekyll-docker) images.
+
 Jekyll docker image. Built to be like my vagrant box to be able to test Ansible playbooks and roles.
 
 ## Tags
